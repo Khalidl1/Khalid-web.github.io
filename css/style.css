@@ -14,7 +14,7 @@
 }
 .main__wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -25,6 +25,7 @@
     margin-top: 30px;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
     cursor: pointer;
+    color: black;
 
 }
 .main__item:hover .main__img {
@@ -52,11 +53,16 @@
     text-align: start;
     z-index: -2;
     transition: all .3s;
-    transform: skewX(-10deg);
 }
 .main__info span {
     font-size: 22px;
     font-weight: 700;
     line-height: 1.6;
-    background-color: #fff;
+    width: 300px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #d9d7d782;
+    border: none;
+    border-radius: 10px;
 }
