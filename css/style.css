@@ -52,7 +52,7 @@
     height: 100%;
     text-align: start;
     z-index: -2;
-    transition: all .3s;
+    transition: top .3s;
 }
 .main__info span {
     font-size: 22px;
