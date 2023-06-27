@@ -71,4 +71,8 @@
    .main__item {
       width: 100%;
    }
+
+   body {
+      overflow-x: hidden;
+   }
 }
